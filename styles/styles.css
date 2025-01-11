@@ -3,15 +3,15 @@
 Navigation Style
 ==================
 */
-nav{
-    background-color: darkblue;
-    padding: 10px;
+nav {
+  background-color: darkblue;
+  padding: 10px;
 }
 
-nav a{
-    color: white;
-    display: block;
-    padding: 20px;
+nav a {
+  color: white;
+  display: block;
+  padding: 20px;
 }
 
 /*
@@ -19,18 +19,57 @@ nav a{
 General Styles
 ==================
 */
-h1{
-    color: darkblue;
+h1 {
+  color: darkblue;
 }
 
-img{
-    width: 150px;
-    height: auto;
-    border:1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+p {
+  padding: 0;
 }
 
-p{
-    padding: 10px;
+/*
+==================
+Main Section
+==================
+*/
+main {
+  max-width: 840px;
+}
+main img {
+  width: 150px;
+  height: auto;
+  border: 1px solid black;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+
+/*
+==================
+Aside Section
+==================
+*/
+aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/*
+==================
+Footer Section
+==================
+*/
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
 }
