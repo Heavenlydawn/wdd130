@@ -1,10 +1,38 @@
+/* 
+=================
+Global CSS variables 
+=================
+*/
+:root{
+  --nav-background-color: darkblue;
+  --text-color-darkblue:darkblue;
+  --text-align: center;
+}
+
+
+
+
+
+/*
+==================
+General Styles
+==================
+*/
+h1 {
+  color: var(--text-color-darkblue);
+}
+
+p {
+  padding: 0;
+}
+
 /*
 ==================
 Navigation Style
 ==================
 */
 nav {
-  background-color: darkblue;
+  background-color: var(--nav-background-color);
   padding: 10px;
 }
 
@@ -14,18 +42,6 @@ nav a {
   padding: 20px;
 }
 
-/*
-==================
-General Styles
-==================
-*/
-h1 {
-  color: darkblue;
-}
-
-p {
-  padding: 0;
-}
 
 /*
 ==================
@@ -55,7 +71,7 @@ aside {
   padding: 1rem;
   background-color: #eee;
   color: #333;
-  text-align: center;
+  text-align: var(--text-align);
 }
 
 aside img {
@@ -71,5 +87,5 @@ Footer Section
 footer {
   margin-top: 15px;
   border-top: 1px solid #000;
-  text-align: center;
+  text-align: var(--text-align);
 }
