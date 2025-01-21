@@ -13,7 +13,7 @@ body {
 }
 
 header .logo {
-  background: #000;
+  background: rgb(60, 60, 14);
   text-align: center;
   width: 100%;
 }
