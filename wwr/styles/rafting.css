@@ -35,9 +35,6 @@ a {
   text-decoration: none;
 }
 /* Header Section */
-/* header .logo{
-
-} */
 header,
 footer {
   background: var(--accent1-color);
@@ -122,8 +119,6 @@ main article img {
 .history .history__content img{
   width: 250px;
 }
-.adventure {
-}
 
 .adventure .adventure__gallery {
   display: flex;
@@ -133,15 +128,15 @@ main article img {
   width: 100%;
   height: auto;
 }
-/* Footer Section */
 
+
+
+/* Footer Section */
 footer{
-  /* display: flex; */
   display: grid;
   grid-template-columns: 6fr 2fr 1fr;
   justify-items: end;
   align-items: center;
-  /* gap: 150px; */
   padding: 20px;
   margin: 20px 0;
 }
