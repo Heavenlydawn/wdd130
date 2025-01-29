@@ -24,7 +24,7 @@ h5,
 h6,
 figcaption {
   font-family: var(--heading-font);
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 body {
   max-width: 1400px;
@@ -56,7 +56,7 @@ header nav ul li {
 }
 header nav ul li a {
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--primary-color);
 }
 header nav ul li a:hover {
 border-bottom:1px solid #fff;
@@ -76,7 +76,7 @@ border-bottom:1px solid #fff;
 
 .hero h1 {
   color: #fff;
-  background-color: #56503f60;
+  background-color: #56503fc4;
   font-size: 4.5rem;
   padding: 10px;
   text-align: center;
@@ -95,7 +95,7 @@ main article {
   width: 1000px;
   color: #fff;
   line-height: 25px;
-  background-color: #56503f60;
+  background-color: #56503fc4;
   font-size: 1.2rem;
 }
 
@@ -158,7 +158,7 @@ footer nav a:nth-child(3) img{
 }
 
 footer p{
-  color: #fff;
+  color: var(--primary-color);
   font-size: 1.2rem;
 }
 
