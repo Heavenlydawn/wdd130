@@ -34,7 +34,29 @@ body {
 a {
   text-decoration: none;
 }
-/* Header Section */
+
+.cta{
+    background-color: white;
+    color: var(--accent2-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.cta:hover{
+  background-color: var(--accent3-color);
+  color: var(--accent2-color);
+}
+/* 
+==================
+Header Section
+==================
+*/
 header,
 footer {
   background: var(--accent1-color);
@@ -60,9 +82,120 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   border-bottom: 1px solid #fff;
+  padding-bottom: 4px;
 }
 
-/* Main Section */
+/* 
+==================
+End of Header Section
+==================
+*/
+
+
+
+/* 
+======================
+Home Page Section
+======================
+*/
+.hero__section .hero__section__image{
+  position: relative;
+}
+.hero__section .hero__section__content{
+  position: absolute;
+  top:200px;
+  left:35%;
+  text-align:center;
+}
+.hero__section .hero__section__content h1{
+font-size: 5rem;
+color:#fff;
+margin-bottom: 2rem;
+}
+.hero__section .hero__section__content p{
+font-size: 2rem;
+color:#fff;
+}
+.hero__section .hero__section__image img{
+  width:100% ;
+}
+
+.raft__info{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+  margin: 100px 0;
+}
+.raft__card .card-img{
+  width: 400px;
+}
+.card__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  margin-top: 20px;
+}
+.card__content h2{
+  font-size: 2rem;
+}
+.icon{
+  width:70px;
+}
+
+.card-img {
+  border: 10px solid  var(--accent2-color);
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.card-img:hover {
+  opacity: .6;
+  transform: scale(1.1);
+}
+
+#background{
+  padding: 50px 100px;
+  margin:100px 0;
+  background: var(--accent2-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mountains{
+  box-shadow: 5px 5px 10px var(--accent1-color);
+}
+.msg {
+  background-color:var(--accent1-color);
+  color: var(--primary-color);
+  line-height: 1.5em;
+  padding: 35px;
+  box-shadow: 5px 5px 10px var(--accent1-color);
+  margin-top: -100px;
+  text-align: center;
+  margin:-50px;
+}
+.msg h2{
+  padding-bottom: 20px;
+}
+/* 
+======================
+End of Home Page Section
+======================
+*/
+
+
+
+
+
+/*
+===================
+Main Section
+===================
+*/
 .hero {
   background: url("../images/heroImage.jpg") no-repeat;
   background-size: cover;
@@ -73,6 +206,7 @@ header nav ul li a:hover {
   align-items: center;
   flex-direction: column;
 }
+
 
 .hero h1 {
   color: #fff;
@@ -292,14 +426,19 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: var(--accent2-color);
 }
-/* 
-=====================
-End of Contact Section
-=====================
+
+/*
+===================
+End of Main Section
+===================
 */
 
 
-/* Footer Section */
+/*
+===================
+Footer Section
+===================
+*/
 footer {
   display: grid;
   grid-template-columns: 6fr 2fr 1fr;
@@ -333,3 +472,8 @@ footer p {
   color: var(--primary-color);
   font-size: 1.2rem;
 }
+/*
+===================
+End of Footer Section
+===================
+*/
