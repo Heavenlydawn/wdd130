@@ -466,6 +466,100 @@ End of Main Section
   outline: none;
   margin-top: 10px;
 }
+
+
+
+/*
+================
+Trips Section
+================
+*/
+/* Call to Action Section */
+.cta-section {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--accent1-color);
+  margin: 2rem 0;
+}
+
+.cta-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Trip Descriptions Section */
+.trip-descriptions {
+  padding: 2rem;
+  text-align: center;
+}
+
+.trip-descriptions h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.trip-card {
+  background-color: var(--accent3-color);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trip-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.trip-card h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.trip-card p {
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+/* Trip Table Section */
+.trip-table {
+  padding: 2rem;
+  text-align: center;
+}
+
+.trip-table h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 1rem;
+  border: 1px solid var(--accent2-color);
+}
+
+th {
+  background-color: var(--accent2-color);
+  color: white;
+}
+
 /*
 ===================
 Footer Section
