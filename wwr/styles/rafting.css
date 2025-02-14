@@ -41,7 +41,6 @@ a {
   text-decoration: none;
   font-size: 18px;
   padding: 15px 30px;
-  margin-top: 50px;
   border-radius: 5px;
   font-weight: bold;
   border: none;
@@ -100,10 +99,18 @@ Home Page Section
   position: relative;
 }
 .hero__section .hero__section__content {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 200px;
   left: 35%;
   text-align: center;
+}
+
+.hero__section .hero__section__content a{
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 .hero__section .hero__section__content h1 {
   font-size: 5rem;
@@ -167,6 +174,8 @@ Home Page Section
   box-shadow: 5px 5px 10px var(--accent1-color);
 }
 .msg {
+  display: flex;
+  flex-direction: column;
   background-color: var(--accent1-color);
   color: var(--primary-color);
   line-height: 1.5em;
@@ -178,6 +187,9 @@ Home Page Section
 }
 .msg h2 {
   padding-bottom: 20px;
+}
+.msg a{
+  margin-top: 100px;
 }
 /* 
 ======================
@@ -476,7 +488,10 @@ Trips Section
 */
 /* Call to Action Section */
 .cta-section {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
   background-color: var(--accent1-color);
   margin: 2rem 0;
