@@ -433,7 +433,51 @@ End of Main Section
 ===================
 */
 
+/* News Letter */
+.sign__up{
+  text-align: center;
 
+}
+.sign__up h2{
+  margin-bottom: 20px;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  margin: 2rem 0;
+}
+.newsletter .sign__up__image img{
+  width: 400px;
+  height: 300px;
+}
+
+.newsletter form {
+  box-shadow: 5px 5px 10px var(--accent1-color);
+ width: 100%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 1rem .5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+
+}
 /*
 ===================
 Footer Section
